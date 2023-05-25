@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+    
+        <span class="tittle">Katak</span> 
+        <span class="subtittle">Kalkulator Kotak</span>
+
+    </header>
+
+
+    <main>
+
+        <div class="card"> Welcome to Katak</div>
+        <p class="welcoming"> hi Sobat, Selamat datang di Katak! </p>
+        <p class="deskripsi"> Katak merupakan kalkulator yang berfungsi mengghitung Luas dan Keliling Persegi.</p>
+
+        <div class="Keterangan" >Luas Persegi</div>
+        
+        
+        <div class="figure">
+            <div class="example-square"></div>
+        </div>
+       
+        <div class="formula-description">
+          
+            <p> Rumus Luas Persegi Yaitu: </p> 
+            <p class="rumus"> L = S x S </p> 
+            <p> Dimana:</p> 
+            <p> L = Luas Persegi</p> 
+            <p> S = Sisi </p> 
+          
+        </div>
+
+        
+        <div>
+                <h3> Hitung Luas Persegi</h3>
+
+                <p> Masukan nilai Sisi Persegi:</p>
+
+                <input id="sisi-luas" name="sisi-luas" required>
+                <p class="result-luas"> Sisi = <span id="nilai-sisi-luas"></span> </p>
+
+                <p class="result-luas" id="rumus-luas"> </p>
+             
+                <p class="result-luas" id="perhitungan-luas"></p>
+                <p class="result-luas"> L = <span id="output-luas"></span> </p>
+            
+              
+                <button  id="Hitung" name="hitung-luas" onclick="hitungLuas()"> Hitung </button>
+                <br> 
+                <button  id="Reset" name="reset-luas" onclick="ResetLuas()"> Reset </button>  
+
+        </div>
+
+
+        <div class="batas"> - </div>
+
+        <div class="Keterangan" >Keliling Persegi</div>
+        
+        
+        <div class="figure">
+            <div class="example-square"></div>
+        </div>
+
+
+        <div class="formula-description">
+          
+            <p> Rumus Keliling Persegi Yaitu: </p> 
+            <p class="rumus">K = S x 4</p> 
+            <p> Dimana:</p> 
+            <p> K = Keliling Persegi</p> 
+            <p> S = Sisi </p> 
+          
+        </div>
+        
+        <div>
+
+                <h3> Hitung Keliling Persegi </h3>
+
+                <p> Masukan nilai Sisi Persegi:</p>
+
+                <input id="sisi-keliling" name="sisi-keliling" required>
+                <p class="result-keliling"> Sisi = <span id="nilai-sisi-keliling"></span> </p>
+
+                <p class="result-keliling" id="rumus-keliling"> </p>
+             
+                <p class="result-keliling" id="perhitungan-keliling"></p>
+                <p class="result-keliling"> K = <span id="output-keliling"></span> </p>
+            
+
+                <button  id="Hitung" name="hitung-keliling" onclick="hitungKeliling()"> Hitung </button>
+               <br>
+                <button  id="Reset" name="reset-keliling" onclick="ResetKeliling()"> Reset </button>  
+                        
+        </div>
+
+
+    </main>
+
+
+    <footer></footer>
+
+    <script src="script.js">
+        
+    </script>
+    
+</body>
+</html>

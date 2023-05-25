@@ -1,0 +1,165 @@
+
+body {
+    background: lightgray;
+}
+
+
+header {
+    background: #618dcf;
+    text-align: center;
+    padding: 60px 60px;
+   
+}
+
+main {
+    margin-top: 10mm;
+    margin-left: 2mm;
+    margin-right: 2mm;
+    background-color: white;
+}
+
+span.tittle {
+    font-weight: bolder;
+    color: white;
+    font-size: xxx-large;
+}
+
+
+span.subtittle {
+    color: rgb(228, 222, 222);
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+
+
+h3 {
+    text-align: center;
+    margin: 10mm;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+input {
+    width: -webkit-fill-available;
+    padding: 15px;
+    margin-left: 4mm;
+    margin-right: 4mm;
+}
+
+.card {
+   
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    font-size: xx-large;
+    
+}
+
+.welcoming{
+  
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+.deskripsi{
+    
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.Keterangan{
+    background: #618dcf;
+    text-align: center;
+    padding: 30px 30px;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+    margin-left : 3mm;
+    margin-right : 3mm;
+
+}
+.figure {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: inherit;
+}
+
+
+.example-square {
+    
+
+    border: 1px solid red;
+    height: 50px;
+    width: 50px;
+}
+
+
+.formula-description {
+    font-weight: bold;
+}
+
+p.rumus {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.result-luas{
+    visibility: visible;
+}
+
+
+
+button#Hitung {
+    position: relative;
+    top: auto;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    color: white;
+    border-color: blue;
+    padding: 30px 40px;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 30mm;
+
+    
+}
+
+button#Reset{
+    position: relative;
+    top: auto;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    color: white;
+    border-color: orangered;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 30mm;
+}
+
+p {
+    margin-left: 5mm;
+    font-size: x-large;
+    font-weight: bold;
+}
+.batas {
+    margin-top : 10mm;
+    margin-bottom: 10mm;
+    text-align: center;
+    font-size: x-large;
+    color: lightgray;
+    background-color:  lightgray;
+    background-size: 10cm;
+}
+
+input{
+    font-size: x-large;
+    font-weight: bold;
+}
